@@ -10,7 +10,7 @@
 <body>
     <nav class="navbar">
    <ul>
-    <li><a href="expo.php">Expo</a></li>
+    <li><a href="accueil.php">Accueil</a></li>
     <li><a href="eboutique">E-Boutique</a></li>
    </ul>
     </nav>

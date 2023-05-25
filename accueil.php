@@ -28,7 +28,7 @@ require_once('barre.php'); ?>
 
 <h1>Bienvenue au musee sensoriel</h1>
 
-<a href="expo.php">expo</a>
+
 
 <div class="rectangle"> <h4>a propos de nous</h4></div>
 
