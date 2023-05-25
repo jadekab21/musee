@@ -1,5 +1,7 @@
 
 <?php require_once('functions.php');
+  
+
 
     if (!isset($_SESSION['user'])) {
         header('Location: login.php');
@@ -20,4 +22,15 @@
     // dd($persos);
 
 ?>
-<h1>accueil</h1>
+<?php require_once('_header.php');
+require_once('barre.php'); ?>
+
+
+<h1>Bienvenue au musee sensoriel</h1>
+
+<a href="expo.php">expo</a>
+
+<div class="rectangle"> <h4>a propos de nous</h4></div>
+
+
+

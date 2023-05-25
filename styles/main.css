@@ -1,0 +1,13 @@
+.rectangle{
+    background-color: rgb(230, 244, 244);
+    list-style: none;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    height: 70px;
+    margin-top: 80px;
+    gap: 30px;
+    width: 150px;
+}
+

@@ -21,7 +21,7 @@
         } else{
             $msg = "Email ou mot de passe incorrect !";
         }
-        header('Location: login.php');
+        //header('Location: accueil.php');
     }
 
 ?>
