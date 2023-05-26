@@ -10,6 +10,8 @@
     gap: 30px;
     width: 150px;
 }
+
+
 .carte {
  
     display: grid;
@@ -22,6 +24,35 @@
     width: 80%;
     margin: auto;
 }
+
+.imgvoir{
+    width: 600px;
+    height: 580px;;
+    margin-left: 780px;
+    margin-top: -60px;
+}
+
+.imgmusee{
+    width: 780px;
+    height: 600px;;
+    margin-right: 780px;
+    margin-top: -60px;
+}
+
+.boutique{
+    background-color: rgb(255, 255, 255);
+    list-style: none;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    height: 70px;
+    margin-top: 80px;
+    gap: 30px;
+    width: 150px;
+}
+
+
 /*.container{
    margin-top: 0px;
    width: 100%;

@@ -30,7 +30,7 @@
         
     $sth->execute();
 
-    $donjons = $sth->fetchAll();
+    $categories = $sth->fetchAll();
 ?>
 <style>
 
@@ -38,11 +38,11 @@
 <?php require_once('_header.php'); ?>
     <div class="container">
         <ul class= "carte">
-            <?php foreach($donjons as $donjon) { ?>
+            <?php foreach($categories as $categories) { ?>
                 
-               <div> <li class="rectangle"><a href="expocat.php?id=<?php echo $donjon['id']; ?>">
+               <div> <li class="rectangle"><a href="expocat.php?id=<?php echo $categories['id']; ?>">
              
-                   <p  class="p" > <?php echo $donjon['name']; ?></p>
+                   <p  class="p" > <?php echo $categories['name']; ?></p>
                 </a></li></div>
             <?php } ?>
         </ul>

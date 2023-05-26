@@ -7,6 +7,21 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>boutique</h1>
+<?php require_once('_expo.php'); ?>
+<?php require_once('barre3.php'); ?>
+<div style="text-align: center;">
+  <h1>La boutique</h1>
+  <h3>Voici les articles que vous retrouverez au magasin du musee</h3>
+</div>
+
+<div class="boutique"><h4>La Jonconde</h4></div>
+
 </body>
 </html>
+
+<style>
+    body{
+        background-color: rgb(166, 172, 175);
+    }
+</style>
+

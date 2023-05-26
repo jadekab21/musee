@@ -2,8 +2,6 @@
     <?php if (!isset($_SESSION['user'])) { ?>
         <li><a href="logout.php"> Logout</a></li>
         <li><a href="avatars.php"> avatar</a></li>
-    
-        
         <?php if (isset($_SESSION['user']['avatar_id'])) {
             $avatarId = $_SESSION['user']['avatar_id'];
 
