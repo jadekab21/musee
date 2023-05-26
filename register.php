@@ -4,11 +4,16 @@
     if (isset($_POST["send"])){
         $bdd = connect ();
 
-        $sql= "INSERT INTO users (`email`, `password`) VALUES (:email, :password);";
+        $sql= "INSERT INTO users (`email`, `password`,`name`,`prenom`,`adresse`,`code_postale`) VALUES (:email, :password ,:name,:prenom,:adresse,:code_postale);";
         $sth=$bdd->prepare($sql);
         $sth->execute([
             'email'=> $_POST['email'],
-            'password'=>password_hash($_POST ['password'], PASSWORD_DEFAULT)
+            'password'=>password_hash($_POST ['password'], PASSWORD_DEFAULT),
+            'name'=> $_POST['name'],
+            'prenom'=> $_POST['prenom'],
+            'adresse'=> $_POST['adresse'],
+            'code_postale'=> $_POST['code_postale'],
+
         ]);
 
         header('Location: login.php');
@@ -60,6 +65,22 @@
             <input type="password" placeholder="Entrez votre mot de passe" name="password" id="password">
         </div>
         <div>
+            <label for="name">nom</label>
+            <input type="name" placeholder="Entrez votre nom" name="name" id="name">
+        </div>
+        <div>
+            <label for="prenom">prenom</label>
+            <input type="prenom" placeholder="Entrez votre prenom" name="prenom" id="prenom">
+        </div>
+        <div>
+            <label for="adresse">adresse</label>
+            <input type="adresse" placeholder="Entrez votre adresse" name="adresse" id="adresse">
+        </div>
+        <div>
+            <label for="code_postale">code postale</label>
+            <input type="code_postale" placeholder="Entrez votre code_postale" name="code_postale" id="code_postale">
+        </div>
+        <div>
         <input type="submit"  name="send" value="Créer" />
         </div>
     </form>
@@ -72,4 +93,3 @@
 </body>
 </html>
 <?php
-

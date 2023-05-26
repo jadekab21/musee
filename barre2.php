@@ -12,6 +12,8 @@
    <ul>
     <li><a href="accueil.php">Accueil</a></li>
     <li><a href="eboutique">E-Boutique</a></li>
+    <li><a href="account.php">account</a></li>
+
    </ul>
     </nav>
 </body>
