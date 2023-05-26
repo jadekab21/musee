@@ -11,7 +11,7 @@
 <?php require_once('barre2.php'); ?>
 
 
-<h1>bienvenue dans l'expo du momemnt</h1>
+<h1>Découvrez nos expositions</h1>
 <?php
 
     require_once('functions.php');
@@ -40,7 +40,7 @@
         <ul class= "carte">
             <?php foreach($categories as $categories) { ?>
                 
-               <div> <li class="rectangle"><a href="expocat.php?id=<?php echo $categories['id']; ?>">
+               <div> <li class="card"><a href="expocat.php?id=<?php echo $categories['id']; ?>">
              
                    <p  class="p" > <?php echo $categories['name']; ?></p>
                 </a></li></div>

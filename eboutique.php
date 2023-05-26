@@ -14,8 +14,31 @@
   <h3>Voici les articles que vous retrouverez au magasin du musee</h3>
 </div>
 
-<div class="boutique"><h4>La Jonconde</h4></div>
+<div class="boutique"></div>
+    <div class="card">
+    <img src="img/jocondequidab.jpg"/>
+    <div class="intro">
+        <h1>La Joconde  s25£</h1>
+    </div>
 
+
+    <div class="card">
+    <img src="img/mug-la-nuit-etoilee-vincent-van-gogh-1889.jpg"/>
+    <div class="intro">
+        <h1>La Nuit etoile 6£</h1>
+    </div>
+    </div>
+
+
+    <div class="card">
+    <img src="img/oreiller.jpg"/>
+    <div class="intro">
+        <h1>Oreiller
+            25£
+        </h1>
+    </div>
+    </div>
+    </div>
 </body>
 </html>
 
@@ -23,5 +46,18 @@
     body{
         background-color: rgb(166, 172, 175);
     }
+    /**{
+        margin: 0px;
+        padding: 0px;
+        font-family: sans-serif;
+    }*/
+
+    img{
+        height:250px;
+        margin-left: 30px;
+        margin-top:30px;
+    }
+
+
 </style>
 

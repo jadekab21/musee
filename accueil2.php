@@ -10,7 +10,7 @@
 <body>
     
 <?php require_once('_header.php');
-require_once('barre.php'); ?>
+require_once('barreadmin.php'); ?>
 
 <h1>Bienvenue au musee sensoriel</h1>
 
@@ -20,24 +20,6 @@ require_once('barre.php'); ?>
 <div style="background: rgba(255,255,255, 0.5); text-align: center; font-size: 24px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);  border-radius: 30px;
 ;"><h3>A propos de nous</h3><h5>Le musée ... a ete cree en 2020 ....</h5><a href="voirplus.php">Voir plus</a>
 
-
-<!--<footer>
-      <div class="contenu-footer">
-          <div class="blo footer-service">
-            <h3>Nos services</h3>
-            <li> <a href="#">Contact</a></li>
-            <li> <a href="#"></a></li>
-            <li> <a href="#"></a></li>
-            <li> <a href="#"></a></li>
-            <li> <a href="#"></a></li>
-
-
-          </div>
-
-
-      </div>
-
-</footer>-->
 </body>
 </html>
 

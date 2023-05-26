@@ -38,19 +38,83 @@
     margin-right: 780px;
     margin-top: -60px;
 }
-
+    
 .boutique{
+    display: flex;
+        justify-content: space-between;
+}
+
+.card{
+    height: 380px;
+    width: 300px;
+    margin:50px;
+    box-shadow: 5px 5px 20px black;
+    background-color: rgb(135, 175, 175);
+        display: inline-block;
+  
+
+}
+
+.intro{
+    height: 70px;
+    width: 350px;
+    padding:6px;
+    box-sizing: border-box;
+    position: absolute;
+}
+
+.video{
+   width: 100vw;
+   height: 100vh;
+   position: fixed;
+   object-fit: cover;
+   z-index: -1;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   top: 0;
+
+}
+
+
+.btn {
+    border: none;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn-grey {
+    background:rgb(205, 97, 85);
+    color: rgb(253, 254, 254);
+}
+
+.btn-grey:hover {
+    background-color: rgb(245, 183, 177);
+}
+/*.boutique{
     background-color: rgb(255, 255, 255);
     list-style: none;
     border-width: 2px;
     border-style: solid;
     border-color: black;
     border-radius: 20px;
-    height: 70px;
+    height: 200px;
     margin-top: 80px;
     gap: 30px;
     width: 150px;
 }
+
+.imgboutique{
+        width: 200px;
+        height: 200px;;
+        margin-right: 780px;
+        margin-top: -150px;
+    }
+
 
 
 /*.container{

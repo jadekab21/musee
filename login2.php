@@ -21,7 +21,7 @@
            // dd($user);
            if ($user[8]=='active'){
             $_SESSION['user'] = $user;
-           header('Location: accueil.php');
+           header('Location: accueil2.php');
            } else{
             $msg = "Utilisateurs inactif!";
            }
@@ -33,7 +33,7 @@
 
 ?>
 <style>
-   form {
+     form {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -59,8 +59,8 @@
   margin-bottom: 10px;
   border-radius: 30px;
     }
-    body {
-            background-image: url(img/museeconex.webp);
+     body {
+            background-image: url(img/image.jpg);
             background-size: cover;
             
         }
@@ -78,7 +78,7 @@
 <body>
   
     <form action="" method="post">
-        <h1>Connexion</h1>
+        <h1>Espace administrateur</h1>
 
         <?php
             if (isset($msg)) {

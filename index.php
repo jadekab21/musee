@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 
-<?php require_once('_header.php'); ?>
+
 <body>
     <style>
           body {
@@ -15,11 +15,30 @@
             background-size: cover;
             
         }
+        .btn {
+    border: none;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn-grey {
+    background:rgb(205, 97, 85);
+    color: rgb(253, 254, 254);
+}
+
+.btn-grey:hover {
+    background-color: rgb(245, 183, 177);
+}
     </style>
-    
-   <h1>Le Musée Sensoriel</h1>
-   <a href="register.php">Créer un compte</a>
-   <a href="login.php">Connexion</a></div>
+    <div style="background: rgba(255,255,255, 0.5); text-align: center; font-size: 24px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);  border-radius: 30px;
+;"><h1>Le Musée des Merveilles Artistiques</h1>
+   <a class="btn btn-grey" href="register.php">Créer un compte</a>
+   <a class="btn btn-grey" href="login.php">Connexion</a><a class="btn btn-grey" href="login2.php">Se connecter en tant qu'administrateur</a></div></div>
+   </div>
 
     
 </body>

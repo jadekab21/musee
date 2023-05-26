@@ -1,10 +1,13 @@
+<?php require_once('_header.php');?>
+
 <?php
 
     require_once('functions.php');
     if (isset($_POST["send"])){
         $bdd = connect ();
 
-        $sql= "INSERT INTO users (`email`, `password`,`name`,`prenom`,`adresse`,`code_postale`) VALUES (:email, :password ,:name,:prenom,:adresse,:code_postale);";
+        $_statut= 'inactive';
+        $sql= "INSERT INTO users (`email`, `password`,`name`,`prenom`,`adresse`,`code_postale`,`statut`) VALUES (:email, :password ,:name,:prenom,:adresse,:code_postale,:statut);";
         $sth=$bdd->prepare($sql);
         $sth->execute([
             'email'=> $_POST['email'],
@@ -13,6 +16,7 @@
             'prenom'=> $_POST['prenom'],
             'adresse'=> $_POST['adresse'],
             'code_postale'=> $_POST['code_postale'],
+            'statut'=> $_statut
 
         ]);
 
@@ -20,25 +24,40 @@
     }
 
 ?>
+
 <style>
-    form {
+   
+   form {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 100vh;
+        height: 50vh;
       border: 1px solid black;
       padding: 20px;
+      background: rgba(255,255,255, 0.5);
       text-align: center;
     font-size: 18px;
       position: absolute; 
       top: 50%; 
       left: 50%;
        transform: translate(-50%, -50%);
-       height: 250;
+       height: 200;
        border-radius: 30px;
 
     }
+    
+    input, select, textarea {
+        border: 1px solid gray;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 30px;
+    }
+    body {
+            background-image: url(img/museecreer.jpg);
+            background-size: cover;
+            
+        }
     
    
 </style>
