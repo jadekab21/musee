@@ -18,7 +18,7 @@
     <div class="card">
     <img src="img/jocondequidab.jpg"/>
     <div class="intro">
-        <h1>La Joconde  s25£</h1>
+        <h1>La Joconde 25£</h1>
     </div>
 
 
@@ -36,6 +36,23 @@
         <h1>Oreiller
             25£
         </h1>
+    </div>
+
+    <div class="card">
+    <img src="img/livre.jpg"/>
+    <div class="intro">
+        <h1>De Renoir a Picasso 20£</h1>
+    </div>
+    <div class="card">
+    <img src="img/assiette.jpg"/>
+    <div class="intro">
+        <h1>Assiette Picasso 5£</h1>
+    </div>
+    </div>
+    <div class="card">
+    <img src="img/dali-porte-cle.webp"/>
+    <div class="intro">
+        <h1>Porte clés Dali 5£</h1>
     </div>
     </div>
     </div>

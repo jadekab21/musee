@@ -19,11 +19,11 @@
         
         if ($user && password_verify($_POST['password'], $user['password']) ){
            // dd($user);
-           if ($user[8]=='active'){
+           if ($user[8]=='active' && $user[9]==1){
             $_SESSION['user'] = $user;
            header('Location: accueil2.php');
            } else{
-            $msg = "Utilisateurs inactif!";
+            $msg = "Utilisateurs non admin!";
            }
         } else{
             $msg = "Email ou mot de passe incorrect !";

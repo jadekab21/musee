@@ -7,7 +7,8 @@
         $bdd = connect ();
 
         $_statut= 'inactive';
-        $sql= "INSERT INTO users (`email`, `password`,`name`,`prenom`,`adresse`,`code_postale`,`statut`) VALUES (:email, :password ,:name,:prenom,:adresse,:code_postale,:statut);";
+        $role_id= 2;
+        $sql= "INSERT INTO users (`email`, `password`,`name`,`prenom`,`adresse`,`code_postale`,`statut`,`role_id`) VALUES (:email, :password ,:name,:prenom,:adresse,:code_postale,:statut,:role_id);";
         $sth=$bdd->prepare($sql);
         $sth->execute([
             'email'=> $_POST['email'],
@@ -16,7 +17,8 @@
             'prenom'=> $_POST['prenom'],
             'adresse'=> $_POST['adresse'],
             'code_postale'=> $_POST['code_postale'],
-            'statut'=> $_statut
+            'statut'=> $_statut,
+            'role_id'=>$role_id
 
         ]);
 
