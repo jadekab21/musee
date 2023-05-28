@@ -33,25 +33,18 @@ require_once('barre.php'); ?>
 }
 
 </style>
-<!--<footer>
-      <div class="contenu-footer">
-          <div class="blo footer-service">
-            <h3>Nos services</h3>
-            <li> <a href="#">Contact</a></li>
-            <li> <a href="#"></a></li>
-            <li> <a href="#"></a></li>
-            <li> <a href="#"></a></li>
-            <li> <a href="#"></a></li>
 
-
-          </div>
-
-
-      </div>
-
-</footer>-->
 </body>
 </html>
 
 
-
+<!--<footer>
+  <div class="footer backGris">
+    <div>
+      <h3>A propos </h3>
+      <p>Contact</p>
+      <p>Note</p>
+      <p>Adresse</p>
+    </div>
+  </div>
+</footer>
