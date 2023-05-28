@@ -10,7 +10,7 @@
 
 <img class="imgvoir" src="img/artiste.jpg"/>
 <div style="background: rgba(255,255,255, 0.5); text-align: center; font-size: 24px; float: left; border-radius: 30px;margin-top:-500px">
-  <h3>blabla </h3> <h5>En 2021, nous avons eu la chance de pouvoir accueillir Takashi Murakami</h5><h5>artiste plasticien japonais. Il a apporter sa joie et sa bonne humeur</h5><h5> avec son exposition sur le theme de ...</h5>
+  <h3>Monstres, Mangas et Murakami</h3> <h5>En 2021, nous avons eu la chance de pouvoir accueillir Takashi Murakami</h5><h5>artiste plasticien japonais. Il a apporter sa joie et sa bonne humeur</h5><h5> avec son exposition sur le theme des monstres et des mangas</h5>L'exposition de Murakami a été une célébration de la créativité, de l'imagination débridée et de l'expression artistique.</h5><h5>Elle a offert aux visiteurs une expérience visuelle captivante, les plongeant dans un monde fantastique où les frontières entre l'art, la culture pop et la réalité sont floues.</h5><h5>Les monstres et les personnages de manga de Murakami ont pris vie, créant un lien entre le public et l'univers ludique et énigmatique de l'artiste.</h5>
 </div>
 <img class="imgmusee" src="img/15609_241_MuseeDesBeauxArts.jpg"/>
 <div style="background: rgba(255,255,255, 0.5); text-align: center; font-size: 24px; float: right; border-radius: 30px; margin-top: -500px; margin-right: 10px;">
